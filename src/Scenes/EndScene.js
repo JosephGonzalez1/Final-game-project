@@ -1,6 +1,7 @@
 class EndScene extends Phaser.Scene {
     constructor() {
         super("endScene");
+        this.tKey = null;
     }
 
     preload() {
@@ -9,6 +10,7 @@ class EndScene extends Phaser.Scene {
 
     create() {
         document.getElementById('description').innerHTML = '<h2>endScene.js</h2>'
+        this.tKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.T);
     }
 
     update() {
