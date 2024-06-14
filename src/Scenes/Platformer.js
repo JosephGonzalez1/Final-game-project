@@ -15,6 +15,7 @@ class Platformer extends Phaser.Scene {
     }
 
     create() {
+        document.getElementById('description').innerHTML = '<h2>platformerScene.js</h2>'
         // Create a new tilemap game object which uses 18x18 pixel tiles, and is
         // 45 tiles wide and 25 tiles tall.
         this.map = this.add.tilemap("platformer-level-1", 16, 16, 140, 25);
