@@ -27,8 +27,9 @@ class Load extends Phaser.Scene {
         // Particle Pack asset pack.
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
 
-        // load the audio for jumping
+        // load the audio for jumping and grabbing coins
         this.load.audio("sfx_jump", "footstep04.ogg");
+        this.load.audio("sfx_coin", "handleCoins.ogg");
     }
 
     create() {
