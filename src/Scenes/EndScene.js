@@ -13,7 +13,7 @@ class EndScene extends Phaser.Scene {
 
     update() {
         if(Phaser.Input.Keyboard.JustDown(this.tKey)) {
-            this.scene.start("platformerScene");
+            this.scene.start("startScene");
         }
     }
 
