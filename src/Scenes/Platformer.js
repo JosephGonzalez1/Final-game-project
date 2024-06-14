@@ -164,7 +164,7 @@ class Platformer extends Phaser.Scene {
 
         if (this.coinCount == 0) {
             //this.add.text(2100, 170, "Game End. Hit R to restart.", 20).setOrigin(0.5);
-            this.scene.start("endScreen");
+            this.scene.start("endScene");
         }
     }
 }
