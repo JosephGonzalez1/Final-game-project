@@ -17,7 +17,7 @@ class StartScene extends Phaser.Scene {
         this.add.text(200, 25, "Jumperman", 20).setOrigin(0.5);
         this.add.text(200, 25, "Press space to start the game.", 20).setOrigin(0.5);
         if(Phaser.Input.Keyboard.JustDown(this.spaceKey)) {
-            this.scene.start("platformerScene");
+            this.scene.start("loadScene");
         }
     }
 
