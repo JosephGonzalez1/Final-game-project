@@ -9,7 +9,7 @@ class StartScene extends Phaser.Scene {
     }
 
     create() {
-        document.getElementById('description').innerHTML = '<h2>endScene.js</h2>'
+        document.getElementById('description').innerHTML = '<h2>startScene.js</h2>'
         this.spaceKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
     }
 
